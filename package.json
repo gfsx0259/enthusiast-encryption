@@ -6,7 +6,14 @@
     "build": "node ./build.js"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name": "Popov Konstantin",
+    "email": "konstantin.icreative@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gfsx0259/enthusiast-encryption.git"
+  },
   "license": "ISC",
   "description": "",
   "devDependencies": {
