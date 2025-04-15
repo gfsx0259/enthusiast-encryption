@@ -10,7 +10,7 @@ export function createBuildSettings(options) {
         format: 'iife',
         globalName: '_encrypt',
         footer: {
-            js: "window.encryptData = _encrypt.default; window.setPublicKey = _encrypt.setPublicKey;"
+            js: "var encryptData = _encrypt.encryptData; var setPublicKey = _encrypt.setPublicKey; var getEncryptLibrary = _encrypt.getEncryptLibrary;"
         },
         plugins: [
             esbuildPluginTsc(),
