@@ -7,13 +7,13 @@
 <h1>Demo</h1>
 <p>
     <ul>
-        <li>Please provide public key via `setPublicKey` function (keys/publickey.pem)</li>
+        <li>Please provide public key via `getEncryptLibrary().setPublicKey` function (keys/publickey.pem)</li>
         <li>Call `encryptData` with any value</li>
     </ul>
 </p>
 
 <script type="text/javascript">
-setPublicKey('-----BEGIN PUBLIC KEY-----\n' +
+    getEncryptLibrary().setPublicKey('-----BEGIN PUBLIC KEY-----\n' +
     'MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt/eBgrQ3+7PFyMsfcce3\n' +
     'jFDqE3A7y1JeZUZ5qhBmzMB4BuXUqrZinL1Gwez5plSZmO56HqxLIi1cGudHSOKm\n' +
     'k+wY4RlN8ZPPIFseziBtu2PU+84g0PMSyMYNQCwKrzw9j58+Q6LFEOWdJ34hySVS\n' +
